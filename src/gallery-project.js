@@ -69,9 +69,9 @@ function onCloseModal() {
 }
 
 function onOverlayClose(event) {
-    if (event.target === event.currentTarget) {
+    //if (event.target === event.currentTarget) {
         onCloseModal();
-    }
+   // }
 }
 function clickESC(event) {
     if (event.code === "Escape") {
